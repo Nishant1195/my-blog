@@ -150,7 +150,7 @@ export default function ContactPage() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full flex items-center justify-center space-x-2 bg-primary text-white px-6 py-4 rounded-lg font-semibold hover:bg-blue-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full flex items-center justify-center space-x-2 bg-primary bg-gray-700 text-white px-6 py-4 rounded-lg font-semibold hover:bg-white hover:border-gray-700 hover:text-gray-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
               <FiSend />
               <span>{loading ? 'Sending...' : 'Send Message'}</span>
